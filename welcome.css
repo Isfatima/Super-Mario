@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+body{
+    background-color: rgb(226, 226, 227);
+}
+.main{
+    width: auto;
+    margin:auto;
+}
+header{
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(226, 226, 227);
+    
+}
+h1{
+    color: rgb(255, 25, 0);
+    justify-content: center;
+    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.one{
+    background-image:url("wall\ 2.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    padding: 60px 60px;
+    color: rgb(255, 251, 251);
+    font-size: xx-large;
+}
+.one h2{
+    font-family:'Mochiy Pop One', sans-serif ;
+    text-shadow: 4px 2px 1px black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.container img{
+    width: 100%;
+    height: fit-content;
+    border-radius:50px;
+    shape-image-threshold: initial;
+}
+.two{
+    padding: 50px 100px;
+}
+.two h2{
+    color: rgb(250, 25, 0);
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(226, 226, 227);
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid red;
+    box-sizing:content-box;
+    border-radius:50px;
+}
+.back{
+    padding: 20px 100px 20px;
+    text-align: right;
+}
+.back a{
+    text-decoration: none;
+    color: rgb(250, 25, 0);
+    font-size:large;
+    border: 3px solid  rgb(250, 25, 0);
+    border-radius: 40px;
+    padding: 5px 15px;
+}
+.back a:hover{
+    color: rgb(19, 0, 0);
+}
+footer{
+    padding: 30px 20px 30px;
+    text-align: center;
+    color:   rgb(0, 0, 0);
+    background-size: cover;
+  }
+hr{
+    border: 0.5cm solid red;
+}
