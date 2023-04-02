@@ -14,14 +14,27 @@ header{
     align-items: center;
     padding: 10px 20px;
     background-color: rgb(226, 226, 227);
-    
 }
 h1{
     color: rgb(255, 25, 0);
     justify-content: center;
-    padding: 10px 10px;
+    padding: 10px 20px;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
+h1 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {color:rgb(130, 102, 61); }
+    0%  {color:rgb(212, 236, 94);  }
+    0%  {color:rgb(19, 19, 150);  }
+    0%  {color:rgb(55, 49, 236);  }
+  }
 .one{
     background-image:url("wall\ 2.jpg");
     background-repeat: no-repeat;

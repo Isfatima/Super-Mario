@@ -27,7 +27,6 @@ body{
 nav ul li{
     display:inline-flex;
     list-style: none;
-
 }
 nav ul li a{
     text-decoration: none;
