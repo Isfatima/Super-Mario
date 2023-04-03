@@ -14,6 +14,11 @@ header{
     align-items: center;
     padding: 10px 20px;
     background-color: rgb(226, 226, 227);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
 }
 h1{
     color: rgb(255, 25, 0);
@@ -44,6 +49,7 @@ h1 {
     padding: 60px 60px;
     color: rgb(255, 251, 251);
     font-size: xx-large;
+    margin-top: 30px;
 }
 .one h2{
     font-family:'Mochiy Pop One', sans-serif ;
